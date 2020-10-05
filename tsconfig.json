@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "outDir": ".",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src", "tests"]
+}

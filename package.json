@@ -1,0 +1,22 @@
+{
+  "name": "@visualteams/ui-kit",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "4.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "description": "UI Kit for VisualTeams",
+  "dependencies": {},
+  "author": ""
+}
