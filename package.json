@@ -8,7 +8,7 @@
   "homepage": "https://www.visualteams.fr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/visualteams/ui-kit"
+    "url": "git+https://github.com/visualteams/ui-kit.git"
   },
   "scripts": {
     "prepublish": "npm run build",
