@@ -1,10 +1,12 @@
 {
   "name": "@visualteams/ui-kit",
   "version": "0.0.1",
+  "description": "UI components and theme for VisualTeams Plugins",
+  "author": "VisualTeams",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "contributor-faces && npm run build",
     "build": "tsc"
   },
   "peerDependencies": {
@@ -14,9 +16,9 @@
   },
   "devDependencies": {
     "prettier": "^2.1.2",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "contributor-faces": "^1.1.0"
   },
-  "description": "UI Kit for VisualTeams",
-  "dependencies": {},
-  "author": ""
+  "dependencies": {
+  }
 }
