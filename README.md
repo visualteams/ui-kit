@@ -66,7 +66,6 @@ Feel free to check the issues page.
 ### Code Contributors
 
 [//]: contributor-faces
-
 <a href="https://github.com/Sylchauf"><img src="https://avatars2.githubusercontent.com/u/5569487?v=4" title="Sylchauf" width="80" height="80"></a>
 
 [//]: contributor-faces

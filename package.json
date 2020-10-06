@@ -5,9 +5,15 @@
   "author": "VisualTeams",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://www.visualteams.fr",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/visualteams/ui-kit"
+  },
   "scripts": {
-    "prepublish": "contributor-faces && npm run build",
-    "build": "tsc"
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "updateContributor": "contributor-faces"
   },
   "peerDependencies": {
     "@material-ui/core": "4.11.0",
