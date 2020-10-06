@@ -17,4 +17,3 @@ var theme = core_1.createMuiTheme({
     },
 });
 exports.default = theme;
-//# sourceMappingURL=theme.js.map

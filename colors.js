@@ -9,4 +9,3 @@ var COLORS = {
     grey: '#b1b1b1',
 };
 exports.default = COLORS;
-//# sourceMappingURL=colors.js.map
