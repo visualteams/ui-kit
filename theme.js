@@ -26,7 +26,8 @@ var theme = styles_1.createMuiTheme({
     overrides: {
         MuiButton: {
             root: {
-                textTransform: 'initial'
+                textTransform: 'initial',
+                fontWeight: 400
             },
             containedPrimary: {
                 color: 'white',
