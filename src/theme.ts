@@ -1,5 +1,5 @@
 // @ts-ignore
-import { createMuiTheme } from '@material-ui/core'
+import { createMuiTheme } from '@material-ui/core/styles';
 import COLORS from './colors'
 
 const theme = createMuiTheme({
