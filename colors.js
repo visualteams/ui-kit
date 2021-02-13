@@ -5,7 +5,8 @@ var COLORS = {
     secondary: '#618c03',
     danger: '#af0226',
     success: '#41fc1f',
-    totalLine: '#e4e4e4',
+    totalLine: '#F7F7F7',
     grey: '#b1b1b1',
+    text: '#222222'
 };
 exports.default = COLORS;

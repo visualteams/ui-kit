@@ -5,5 +5,6 @@ declare const COLORS: {
     success: string;
     totalLine: string;
     grey: string;
+    text: string;
 };
 export default COLORS;
