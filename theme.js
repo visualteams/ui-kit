@@ -15,5 +15,23 @@ var theme = styles_1.createMuiTheme({
             main: colors_1.default.secondary,
         },
     },
+    props: {
+        MuiButton: {
+            disableElevation: true,
+            variant: 'contained',
+            color: 'primary',
+            size: 'small'
+        },
+    },
+    overrides: {
+        MuiButton: {
+            root: {
+                textTransform: 'initial'
+            },
+            containedPrimary: {
+                color: 'white',
+            }
+        }
+    }
 });
 exports.default = theme;

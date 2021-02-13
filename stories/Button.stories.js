@@ -14,33 +14,35 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Small = exports.Large = exports.Secondary = exports.Primary = void 0;
+exports.Outlined = exports.Secondary = exports.Primary = void 0;
 var react_1 = __importDefault(require("react"));
-var Button_1 = require("./Button");
+var Button_1 = __importDefault(require("@material-ui/core/Button"));
 exports.default = {
     title: 'Example/Button',
-    component: Button_1.Button,
+    component: Button_1.default,
     argTypes: {
-        backgroundColor: { control: 'color' },
+        fullWidth: true,
+        disabled: true
     },
 };
-var Template = function (args) { return react_1.default.createElement(Button_1.Button, __assign({}, args)); };
+var Template = function (args) { return react_1.default.createElement(Button_1.default, __assign({}, args), "Button"); };
 exports.Primary = Template.bind({});
 exports.Primary.args = {
-    primary: true,
-    label: 'Button',
+    fullWidth: false,
+    disabled: false,
+    variant: 'contained',
+    color: 'primary'
 };
 exports.Secondary = Template.bind({});
 exports.Secondary.args = {
-    label: 'Button',
+    fullWidth: false,
+    disabled: false,
+    variant: 'contained',
+    color: 'secondary'
 };
-exports.Large = Template.bind({});
-exports.Large.args = {
-    size: 'large',
-    label: 'Button',
-};
-exports.Small = Template.bind({});
-exports.Small.args = {
-    size: 'small',
-    label: 'Button',
+exports.Outlined = Template.bind({});
+exports.Outlined.args = {
+    variant: 'outlined',
+    disabled: false,
+    color: 'primary'
 };
