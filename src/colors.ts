@@ -5,7 +5,8 @@ const COLORS = {
   success: '#41fc1f',
   totalLine: '#F7F7F7',
   grey: '#b1b1b1',
-  text: '#222222'
+  text: '#222222',
+  background: '#f2f4f5'
 }
 
 export default COLORS

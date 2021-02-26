@@ -10,6 +10,9 @@ const theme = createMuiTheme({
         secondary: {
           main: COLORS.secondary,
         },
+        background: {
+          default: COLORS.background
+        },
     },
     props: {
         MuiButton: {
