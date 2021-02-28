@@ -6,5 +6,6 @@ declare const COLORS: {
     totalLine: string;
     grey: string;
     text: string;
+    background: string;
 };
 export default COLORS;

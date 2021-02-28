@@ -1,6 +1,7 @@
 // @ts-ignore
 import { createMuiTheme } from '@material-ui/core/styles';
 import COLORS from './colors'
+import createShadows from "./shadows"
 
 const theme = createMuiTheme({
     palette: {
@@ -14,6 +15,8 @@ const theme = createMuiTheme({
           default: COLORS.background
         },
     },
+    // @ts-ignore
+    shadows: createShadows(COLORS.grey),
     props: {
         MuiButton: {
             disableElevation: true,
@@ -30,6 +33,14 @@ const theme = createMuiTheme({
             },
             containedPrimary: {
                 color: 'white',
+            }
+        },
+        MuiTypography: {
+            h1: {
+                fontSize: '1.25rem !important',
+                fontWeight: 500,
+                fontFamily: 'Raleway',
+                color: COLORS.grey,
             }
         }
     }
