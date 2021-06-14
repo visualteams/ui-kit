@@ -32,6 +32,10 @@ var theme = styles_1.createMuiTheme({
             variant: 'outlined',
             margin: 'dense',
             size: 'small'
+        },
+        MuiSelect: {
+            variant: 'outlined',
+            margin: 'dense',
         }
     },
     overrides: {
