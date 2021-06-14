@@ -28,6 +28,11 @@ var theme = styles_1.createMuiTheme({
             color: 'primary',
             size: 'small'
         },
+        MuiTextField: {
+            variant: 'outlined',
+            margin: 'dense',
+            size: 'small'
+        }
     },
     overrides: {
         MuiButton: {
