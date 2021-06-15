@@ -1,4 +1,4 @@
-import { Select, FormControl } from "@material-ui/core";
+import { Select, FormControl, MenuItem } from "@material-ui/core";
 import InputLabel from "@material-ui/core/InputLabel";
 import React from "react";
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
@@ -13,7 +13,11 @@ const Template: Story = (args) => (
   <div style={{ width: 500 }}>
     <FormControl {...args}>
       <InputLabel id="demo-simple-select-label">Label</InputLabel>
-      <Select labelId={"demo-simple-select-label"} />
+      <Select labelId={"demo-simple-select-label"} label={'Label'}>
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
+      </Select>
     </FormControl>
   </div>
 );

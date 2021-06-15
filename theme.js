@@ -16,7 +16,7 @@ var theme = styles_1.createMuiTheme({
             main: colors_1.default.secondary,
         },
         background: {
-            default: colors_1.default.background
+            default: colors_1.default.background,
         },
     },
     // @ts-ignore
@@ -24,38 +24,38 @@ var theme = styles_1.createMuiTheme({
     props: {
         MuiButton: {
             disableElevation: true,
-            variant: 'contained',
-            color: 'primary',
-            size: 'small'
+            variant: "contained",
+            color: "primary",
+            size: "small",
         },
         MuiTextField: {
-            variant: 'outlined',
-            margin: 'dense',
-            size: 'small'
+            variant: "outlined",
+            margin: "dense",
+            size: "small",
         },
-        MuiSelect: {
-            variant: 'outlined',
-            margin: 'dense',
-        }
+        MuiFormControl: {
+            variant: "outlined",
+            margin: "dense",
+        },
     },
     overrides: {
         MuiButton: {
             root: {
-                textTransform: 'initial',
-                fontWeight: 400
+                textTransform: "initial",
+                fontWeight: 400,
             },
             containedPrimary: {
-                color: 'white',
-            }
+                color: "white",
+            },
         },
         MuiTypography: {
             h1: {
-                fontSize: '1.25rem !important',
+                fontSize: "1.25rem !important",
                 fontWeight: 500,
-                fontFamily: 'Raleway',
+                fontFamily: "Raleway",
                 color: colors_1.default.grey,
-            }
-        }
-    }
+            },
+        },
+    },
 });
 exports.default = theme;
