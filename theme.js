@@ -47,6 +47,12 @@ var theme = styles_1.createMuiTheme({
             containedPrimary: {
                 color: "white",
             },
+            outlinedPrimary: {
+                color: colors_1.default.secondary,
+            },
+            containedSecondary: {
+                color: "white",
+            },
         },
         MuiTypography: {
             h1: {

@@ -43,6 +43,12 @@ const theme = createMuiTheme({
       containedPrimary: {
         color: "white",
       },
+      outlinedPrimary: {
+        color: COLORS.secondary,
+      },
+      containedSecondary: {
+        color: "white",
+      },
     },
     MuiTypography: {
       h1: {
