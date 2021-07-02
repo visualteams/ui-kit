@@ -7,5 +7,6 @@ declare const COLORS: {
     grey: string;
     text: string;
     background: string;
+    backgroundDark: string;
 };
 export default COLORS;
