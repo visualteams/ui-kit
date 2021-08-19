@@ -22,7 +22,7 @@ exports.hexToRgb = void 0;
  *
  * Exported for testing purposes only.
  */
-exports.hexToRgb = function (hex) {
+var hexToRgb = function (hex) {
     // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
     var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
     var rawRgb = hex.replace(shorthandRegex, function (m, r, g, b) { return r + r + g + g + b + b; });
@@ -35,6 +35,7 @@ exports.hexToRgb = function (hex) {
         }
         : null;
 };
+exports.hexToRgb = hexToRgb;
 var shadowKeyUmbraOpacity = 0.2;
 var shadowKeyPenumbraOpacity = 0.14;
 var shadowAmbientShadowOpacity = 0.12;

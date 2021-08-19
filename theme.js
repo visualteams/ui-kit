@@ -39,6 +39,14 @@ var theme = styles_1.createMuiTheme({
         },
     },
     overrides: {
+        MuiInputBase: {
+            input: {
+                "&$disabled": {
+                    background: "#dedede",
+                    cursor: "not-allowed !important",
+                },
+            },
+        },
         MuiButton: {
             root: {
                 textTransform: "initial",
