@@ -1,9 +1,9 @@
 // @ts-ignore
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 import COLORS from "./colors";
 import createShadows from "./shadows";
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       main: COLORS.primary,
