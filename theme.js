@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var styles_1 = require("@material-ui/core/styles");
 var colors_1 = __importDefault(require("./colors"));
 var shadows_1 = __importDefault(require("./shadows"));
-var theme = styles_1.createMuiTheme({
+var theme = styles_1.createTheme({
     palette: {
         primary: {
             main: colors_1.default.primary,
